@@ -1,0 +1,22 @@
+{
+  "identifier": "org.arthvadrr",
+  "name": "arth-keybinds",
+  "organization": "arthvadrr",
+  "description": "Adds custom keybinds that arthvadrr likes to use",
+  "version": "1.0",
+  "main": "main.js",
+  "contributes": {
+    "menus": []
+  },
+  "commands": {
+      "editor": [
+          {
+              "title": "Move Cursor Down",
+              "command": "editor.moveCursorDown",
+              "shortcut": "cmd-k",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          }
+      ]
+  }
+}
