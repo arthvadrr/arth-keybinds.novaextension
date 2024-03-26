@@ -9,62 +9,66 @@
     "menus": []
   },
   "commands": {
-      "editor": [
-          {
-              "title": "Move Cursor Up",
-              "command": "editor.moveCursorUp",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
-          },
+      "text": [
+        {
+            "title": "Move Cursor Up",
+            "command": "arth.moveCursorUp",
+            "shortcut": "cmd-i",
+            "when": "editorHasFocus"
+        },
           {
               "title": "Move Cursor Down",
-              "command": "editor.moveCursorDown",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorDown",
+              "shortcut": "cmd-k",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor Left",
-              "command": "editor.moveCursorLeft",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorLeft",
+              "shortcut": "cmd-opt-j",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor Right",
-              "command": "editor.moveCursorRight",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorRight",
+              "shortcut": "cmd-opt-l",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor to Beginning of Word",
-              "command": "editor.moveCursorWordBeginning",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorWordBeginning",
+              "shortcut": "cmd-j",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor to End of Word",
-              "command": "editor.moveCursorWordEnd",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorWordEnd",
+              "shortcut": "cmd-l",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor to End of Line",
-              "command": "editor.moveCursorLineEnd",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorLineEnd",
+              "shortcut": "ctrl-l",
+              "when": "editorHasFocus"
           },
           {
               "title": "Move Cursor to Beginning of Line",
-              "command": "editor.moveCursorLineBeginning",
-              "shortcut": "",
-              "when": "editorHasFocus",
-              "priority": "highest"
+              "command": "arth.moveCursorLineBeginning",
+              "shortcut": "ctrl-j",
+              "when": "editorHasFocus"
+          },
+          {
+              "title": "Select Left",
+              "command": "arth.selectLeft",
+              "shortcut": "cmd-opt-u",
+              "when": "editorHasFocus"
+          },
+          {
+              "title": "Select Right",
+              "command": "arth.selectLeft",
+              "shortcut": "cmd-opt-o",
+              "when": "editorHasFocus"
           }
       ]
   }
