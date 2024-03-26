@@ -11,9 +11,58 @@
   "commands": {
       "editor": [
           {
+              "title": "Move Cursor Up",
+              "command": "editor.moveCursorUp",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
               "title": "Move Cursor Down",
               "command": "editor.moveCursorDown",
-              "shortcut": "cmd-k",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor Left",
+              "command": "editor.moveCursorLeft",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor Right",
+              "command": "editor.moveCursorRight",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor to Beginning of Word",
+              "command": "editor.moveCursorWordBeginning",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor to End of Word",
+              "command": "editor.moveCursorWordEnd",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor to End of Line",
+              "command": "editor.moveCursorLineEnd",
+              "shortcut": "",
+              "when": "editorHasFocus",
+              "priority": "highest"
+          },
+          {
+              "title": "Move Cursor to Beginning of Line",
+              "command": "editor.moveCursorLineBeginning",
+              "shortcut": "",
               "when": "editorHasFocus",
               "priority": "highest"
           }
