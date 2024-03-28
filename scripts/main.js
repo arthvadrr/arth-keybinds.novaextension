@@ -61,8 +61,8 @@ exports.activate = function() {
 
 	nova.commands.register("arth.selectRight", (editor) => {
 		editor.selectRight();
-	});
-
+	})
+	
 	nova.commands.register("arth.selectToBeginningOfWord", (editor) => {
 		editor.selectToBeginningOfWord();
 	});
@@ -78,6 +78,18 @@ exports.activate = function() {
 	nova.commands.register("arth.selectToEndOfLine", (editor) => {
 		editor.selectToEndOfLine();
 	});
+	
+	nova.commands.register("arth.selectLineUp", (editor) => {
+		editor.selectUp();
+	});
+	
+	nova.commands.register("arth.selectLineDown", (editor) => {
+		editor.selectDown();
+	});
+	
+	/**
+	 * Text Edit
+	 */
 }
 
 exports.deactivate = function() {

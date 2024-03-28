@@ -5,16 +5,14 @@
   "description": "Adds custom keybinds that arthvadrr likes to use",
   "version": "1.0",
   "main": "main.js",
-  "contributes": {
-    "menus": {
-      "editor/context": [{
-        "command": "arth.moveCursorUp",
-        "title": "Move Cursor Up",
-        "group": "navigation"
-      }]
-    }
-  },
   "commands": {
+    "editor": [
+      {
+        "title": "Open Quickly",
+        "command": "file.openQuickly",
+        "shortcut": "cmd-p"
+      }
+    ],
     "text": [{
         "title": "Move Cursor Up",
         "command": "arth.moveCursorUp",
@@ -110,6 +108,30 @@
         "title": "Select To End Of Line",
         "command": "arth.selectToEndOfLine",
         "shortcut": "ctrl-o",
+        "when": "editorHasFocus"
+      },
+      {
+        "title": "Select Up",
+        "command": "arth.selectLineUp",
+        "shortcut": "ctrl-.",
+        "when": "editorHasFocus"
+      },
+      {
+        "title": "Select Down",
+        "command": "arth.selectLineDown",
+        "shortcut": "ctrl-,",
+        "when": "editorHasFocus"
+      },
+      {
+        "title": "Move Line Up",
+        "command": "arth.moveLineUp",
+        "shortcut": "ctrl-i",
+        "when": "editorHasFocus"
+      },
+      {
+        "title": "Move Line Down",
+        "command": "arth.moveLineDown",
+        "shortcut": "ctrl-k",
         "when": "editorHasFocus"
       }
     ]
