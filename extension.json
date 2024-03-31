@@ -3,8 +3,10 @@
   "name": "arth-keybinds",
   "organization": "arthvadrr",
   "description": "Adds custom keybinds that arthvadrr likes to use",
-  "version": "1.0",
+  "version": "0.0.1",
   "main": "main.js",
+  "categories": ["key-bindings"],
+  "bugs": "https://github.com/arthvadrr/arth-keybinds.novaextension/issues",
   "commands": {
     "editor": [
       {
@@ -13,7 +15,8 @@
         "shortcut": "cmd-p"
       }
     ],
-    "text": [{
+    "text": [
+      {
         "title": "Move Cursor Up",
         "command": "arth.moveCursorUp",
         "shortcut": "cmd-i",

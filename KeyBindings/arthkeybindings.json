@@ -1,12 +1,1 @@
-{
-  "commands": {
-	"file.openQuickly": {
-	  "title": "Open Quickly",
-	  "shortcut": "cmd-p"
-	},
-	"arth.moveCursorUp": {
-		"title": "Move Cursor Up",
-		"shortcut": "cmd-i"
-	}
-  }
-}
+{}
