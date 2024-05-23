@@ -1,143 +1,143 @@
 {
-  "identifier": "arthvadrr.arthkeybinds",
-  "name": "arth-keybinds",
-  "organization": "arthvadrr",
-  "description": "Adds custom keybinds that arthvadrr likes to use",
-  "version": "0.0.3",
-  "repository": "https://github.com/arthvadrr/arth-keybinds.novaextension",
-  "main": "main.js",
-  "categories": ["key-bindings"],
-  "bugs": "https://github.com/arthvadrr/arth-keybinds.novaextension/issues",
-  "commands": {
-    "editor": [
-      {
-        "title": "Open Quickly",
-        "command": "file.openQuickly",
-        "shortcut": "cmd-p"
-      }
-    ],
-    "text": [
-      {
-        "title": "Move Cursor Up",
-        "command": "arth.moveCursorUp",
-        "shortcut": "cmd-i",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor Down",
-        "command": "arth.moveCursorDown",
-        "shortcut": "cmd-k",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor Left",
-        "command": "arth.moveCursorLeft",
-        "shortcut": "cmd-opt-j",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor Right",
-        "command": "arth.moveCursorRight",
-        "shortcut": "cmd-opt-l",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor to Beginning of Word",
-        "command": "arth.moveCursorWordBeginning",
-        "shortcut": "cmd-j",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor to End of Word",
-        "command": "arth.moveCursorWordEnd",
-        "shortcut": "cmd-l",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor to End of Line",
-        "command": "arth.moveCursorLineEnd",
-        "shortcut": "ctrl-l",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor to Beginning of Line",
-        "command": "arth.moveCursorLineBeginning",
-        "shortcut": "ctrl-j",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Cursor Up Ten",
-        "command": "arth.moveCursorUpTen",
-        "shortcut": "cmd-opt-i",
-        "when": "editorHasFocus",
-        "priority": "highest"
-      },
-      {
-        "title": "Move Cursor Down Ten",
-        "command": "arth.moveCursorDownTen",
-        "shortcut": "cmd-opt-k",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select Left",
-        "command": "arth.selectLeft",
-        "shortcut": "cmd-opt-u",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select Right",
-        "command": "arth.selectRight",
-        "shortcut": "cmd-opt-o",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select To Beginning of Word",
-        "command": "arth.selectToBeginningOfWord",
-        "shortcut": "cmd-u",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select To End Of Word",
-        "command": "arth.selectToEndOfWord",
-        "shortcut": "cmd-o",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select To Beginning Of Line",
-        "command": "arth.selectToBeginningOfLine",
-        "shortcut": "ctrl-u",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select To End Of Line",
-        "command": "arth.selectToEndOfLine",
-        "shortcut": "ctrl-o",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select Up",
-        "command": "arth.selectLineUp",
-        "shortcut": "ctrl-.",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Select Down",
-        "command": "arth.selectLineDown",
-        "shortcut": "ctrl-,",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Line Up",
-        "command": "arth.moveLineUp",
-        "shortcut": "ctrl-i",
-        "when": "editorHasFocus"
-      },
-      {
-        "title": "Move Line Down",
-        "command": "arth.moveLineDown",
-        "shortcut": "ctrl-k",
-        "when": "editorHasFocus"
-      }
-    ]
-  }
+    "identifier": "arthvadrr.arthkeybinds",
+    "name": "arth-keybinds",
+    "organization": "arthvadrr",
+    "description": "Adds custom keybinds that arthvadrr likes to use",
+    "version": "0.0.5",
+    "repository": "https://github.com/arthvadrr/arth-keybinds.novaextension",
+    "main": "main.js",
+    "categories": ["key-bindings"],
+    "bugs": "https://github.com/arthvadrr/arth-keybinds.novaextension/issues",
+    "commands": {
+        "editor": [
+            {
+                "title": "Open Quickly",
+                "command": "file.openQuickly",
+                "shortcut": "cmd-p"
+            }
+        ],
+        "text": [
+            {
+                "title": "Move Cursor Up",
+                "command": "arth.moveCursorUp",
+                "shortcut": "cmd-i",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor Down",
+                "command": "arth.moveCursorDown",
+                "shortcut": "cmd-k",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor Left",
+                "command": "arth.moveCursorLeft",
+                "shortcut": "cmd-opt-j",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor Right",
+                "command": "arth.moveCursorRight",
+                "shortcut": "cmd-opt-l",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor to Beginning of Word",
+                "command": "arth.moveCursorWordBeginning",
+                "shortcut": "cmd-j",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor to End of Word",
+                "command": "arth.moveCursorWordEnd",
+                "shortcut": "cmd-l",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor to End of Line",
+                "command": "arth.moveCursorLineEnd",
+                "shortcut": "ctrl-l",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor to Beginning of Line",
+                "command": "arth.moveCursorLineBeginning",
+                "shortcut": "ctrl-j",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Cursor Up Ten",
+                "command": "arth.moveCursorUpThirty",
+                "shortcut": "cmd-opt-i",
+                "when": "editorHasFocus",
+                "priority": "highest"
+            },
+            {
+                "title": "Move Cursor Down Ten",
+                "command": "arth.moveCursorDownThirty",
+                "shortcut": "cmd-opt-k",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select Left",
+                "command": "arth.selectLeft",
+                "shortcut": "cmd-opt-u",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select Right",
+                "command": "arth.selectRight",
+                "shortcut": "cmd-opt-o",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select To Beginning of Word",
+                "command": "arth.selectToBeginningOfWord",
+                "shortcut": "cmd-u",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select To End Of Word",
+                "command": "arth.selectToEndOfWord",
+                "shortcut": "cmd-o",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select To Beginning Of Line",
+                "command": "arth.selectToBeginningOfLine",
+                "shortcut": "ctrl-u",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select To End Of Line",
+                "command": "arth.selectToEndOfLine",
+                "shortcut": "ctrl-o",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select Up",
+                "command": "arth.selectLineUp",
+                "shortcut": "ctrl-.",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Select Down",
+                "command": "arth.selectLineDown",
+                "shortcut": "ctrl-,",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Line Up",
+                "command": "arth.moveLineUp",
+                "shortcut": "ctrl-i",
+                "when": "editorHasFocus"
+            },
+            {
+                "title": "Move Line Down",
+                "command": "arth.moveLineDown",
+                "shortcut": "ctrl-k",
+                "when": "editorHasFocus"
+            }
+        ]
+    }
 }
