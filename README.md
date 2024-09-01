@@ -4,6 +4,9 @@ Custom keybinds for my personal setup. This extension will conflict with many de
 
 I plan on expanding functionality soon.
 
+## About
+
+
 ## Roadmap
 
 - Enable users to access keybindings for "text" commands through the keybindings menu.
@@ -11,3 +14,8 @@ I plan on expanding functionality soon.
 - Implement a command to switch the text commands on and off conveniently.
 - Ensure that the new keybindings minimize conflicts with existing default keybindings.
 - Update the readme file to provide clear instructions on how users can understand and utilize these new keybindings effectively.
+
+## Changelog
+
+### Version 0.1.0
+- Including remapped keys in arthkeybindings.json
