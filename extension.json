@@ -3,7 +3,7 @@
     "name": "arth-keybinds",
     "organization": "arthvadrr",
     "description": "Adds custom keybinds that arthvadrr likes to use",
-    "version": "0.0.5",
+    "version": "0.0.37",
     "repository": "https://github.com/arthvadrr/arth-keybinds.novaextension",
     "main": "main.js",
     "categories": ["key-bindings"],

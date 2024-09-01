@@ -4,9 +4,6 @@ Custom keybinds for my personal setup. This extension will conflict with many de
 
 I plan on expanding functionality soon.
 
-## About
-
-
 ## Roadmap
 
 - Enable users to access keybindings for "text" commands through the keybindings menu.
@@ -17,5 +14,13 @@ I plan on expanding functionality soon.
 
 ## Changelog
 
-### Version 0.1.0
+### v0.0.37
 - Including remapped keys in arthkeybindings.json
+- Renamed arthkeybindings.json to Arth Keybindings.json
+
+### v0.0.2
+- Added repo
+- Updated icon
+
+### v0.0.1
+- Wrote main.js keybinds
