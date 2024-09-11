@@ -1,88 +1,70 @@
 {
-  "menuItems" : {
-    "ClearScrollback" : {
-
+  "menuItems": {
+    "ClearScrollback": {},
+    "FindNext": {},
+    "FocusNextPane": {
+      "shortcut": "ctrl-]"
     },
-    "FindNext" : {
-
+    "FocusPreviousPane": {
+      "shortcut": "ctrl-["
     },
-    "FocusNextPane" : {
-      "shortcut" : "ctrl-]"
+    "GoToLine": {
+      "shortcut": "cmd-g"
     },
-    "FocusPreviousPane" : {
-      "shortcut" : "ctrl-["
+    "JumpToDeclaration": {
+      "shortcut": "cmd-m"
     },
-    "GoToLine" : {
-      "shortcut" : "cmd-g"
+    "JumpToDefinition": {
+      "shortcut": "ctrl-m"
     },
-    "JumpToDeclaration" : {
-      "shortcut" : "cmd-m"
+    "JumpToNextBracket": {},
+    "JumpToSelection": {},
+    "MinimizeWindow": {},
+    "MoveLinesDown": {
+      "shortcut": "ctrl-k"
     },
-    "JumpToDefinition" : {
-      "shortcut" : "ctrl-m"
+    "MoveLinesUp": {
+      "shortcut": "ctrl-i"
     },
-    "JumpToNextBracket" : {
-
+    "NewLocalTerminal": {
+      "shortcut": "ctrl-h"
     },
-    "JumpToSelection" : {
-
+    "Open": {},
+    "OpenQuicklyInFiles": {
+      "shortcut": "cmd-p"
     },
-    "MinimizeWindow" : {
-
+    "Print": {},
+    "SelectLine": {},
+    "ShowClipsSidebar": {
+      "shortcut": "ctrl-6"
     },
-    "MoveLinesDown" : {
-      "shortcut" : "ctrl-k"
+    "ShowFilesSidebar": {
+      "shortcut": "ctrl-1"
     },
-    "MoveLinesUp" : {
-      "shortcut" : "ctrl-i"
+    "ShowFindSidebar": {
+      "shortcut": "ctrl-3"
     },
-    "NewLocalTerminal" : {
-      "shortcut" : "ctrl-h"
+    "ShowGitSidebar": {
+      "shortcut": "ctrl-7"
     },
-    "Open" : {
-
+    "ShowPublishSidebar": {
+      "shortcut": "ctrl-8"
     },
-    "OpenQuicklyInFiles" : {
-      "shortcut" : "cmd-p"
+    "ShowRemoteSidebar": {
+      "shortcut": "ctrl-2"
     },
-    "Print" : {
-
+    "ShowSymbolsSidebar": {
+      "shortcut": "ctrl-4"
     },
-    "SelectLine" : {
-
+    "SplitPaneLeft": {
+      "shortcut": "cmd-ctrl-j"
     },
-    "ShowClipsSidebar" : {
-      "shortcut" : "ctrl-6"
+    "SplitPaneRight": {
+      "shortcut": "cmd-ctrl-l"
     },
-    "ShowFilesSidebar" : {
-      "shortcut" : "ctrl-1"
-    },
-    "ShowFindSidebar" : {
-      "shortcut" : "ctrl-3"
-    },
-    "ShowGitSidebar" : {
-      "shortcut" : "ctrl-7"
-    },
-    "ShowPublishSidebar" : {
-      "shortcut" : "ctrl-8"
-    },
-    "ShowRemoteSidebar" : {
-      "shortcut" : "ctrl-2"
-    },
-    "ShowSymbolsSidebar" : {
-      "shortcut" : "ctrl-4"
-    },
-    "SplitPaneLeft" : {
-      "shortcut" : "cmd-ctrl-j"
-    },
-    "SplitPaneRight" : {
-      "shortcut" : "cmd-ctrl-l"
-    },
-    "ToggleInvisibleCharacters" : {
-
-    },
-    "ToggleSidebar" : {
-      "shortcut" : "ctrl-b"
+    "ToggleInvisibleCharacters": {},
+    "ToggleSidebar": {
+      "shortcut": "ctrl-b"
     }
   }
 }
